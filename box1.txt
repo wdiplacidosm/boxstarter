@@ -1,0 +1,21 @@
+Enable-RemoteDesktop
+cinst IIS-WebServerRole -source windowsfeatures
+Install-WindowsUpdate -acceptEula
+Update-ExecutionPolicy Unrestricted
+ 
+cinst GoogleChrome
+cinst notepadplusplus.install
+cinst keepass
+cinst 7zip.install
+cinst javaruntime
+cinst adobereader
+cinst filezilla
+cinst flashplayerplugin
+cinst virtualbox
+cinst openvpn
+cinst malwarebytes
+cinst Firefox
+cinst pidgin
+cinst DotNet4.5
+
+Install-WindowsUpdate -acceptEula
