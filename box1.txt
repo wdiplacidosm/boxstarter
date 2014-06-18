@@ -3,19 +3,21 @@ cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -acceptEula
 Update-ExecutionPolicy Unrestricted
  
+cinst DotNet4.5
+cinst PowerShell
 cinst GoogleChrome
-cinst notepadplusplus.install
+cinst SublimeText3
 cinst keepass
 cinst 7zip.install
 cinst javaruntime
 cinst adobereader
 cinst filezilla
 cinst flashplayerplugin
-cinst virtualbox
 cinst openvpn
 cinst malwarebytes
 cinst Firefox
 cinst pidgin
-cinst DotNet4.5
+cinst git
 
+cinst wincommandpaste
 Install-WindowsUpdate -acceptEula
