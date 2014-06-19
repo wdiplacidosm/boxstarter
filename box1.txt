@@ -10,12 +10,13 @@ cinst SublimeText3
 cinst keepass
 cinst 7zip.install
 cinst javaruntime
-cinst adobereader
+cinst sumatrapdf
 cinst filezilla
 cinst flashplayerplugin
 cinst malwarebytes
 cinst Firefox
 cinst git
 cinst wincommandpaste
+cinst clover
 
 Install-WindowsUpdate -acceptEula
