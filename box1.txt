@@ -13,10 +13,8 @@ cinst javaruntime
 cinst adobereader
 cinst filezilla
 cinst flashplayerplugin
-cinst openvpn
 cinst malwarebytes
 cinst Firefox
-cinst pidgin
 cinst git
 cinst wincommandpaste
 
