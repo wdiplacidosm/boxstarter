@@ -4,6 +4,7 @@ Install-WindowsUpdate -acceptEula
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Set-TaskbarSmall
+Disable-UAC
 
 cinst DotNet4.5
 cinst PowerShell
