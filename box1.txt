@@ -1,5 +1,4 @@
 Enable-RemoteDesktop
-cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -acceptEula
 Update-ExecutionPolicy Unrestricted
  
@@ -18,6 +17,4 @@ cinst malwarebytes
 cinst Firefox
 cinst pidgin
 cinst git
-
 cinst wincommandpaste
-Install-WindowsUpdate -acceptEula
