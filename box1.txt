@@ -21,5 +21,6 @@ cinst Firefox
 cinst git
 cinst wincommandpaste
 cinst clover
+cinst windirstat
 
 Install-WindowsUpdate -acceptEula
