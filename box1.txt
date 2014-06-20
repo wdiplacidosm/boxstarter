@@ -22,5 +22,6 @@ cinst git
 cinst wincommandpaste
 cinst clover
 cinst windirstat
+cinst ccleaner
 
 Install-WindowsUpdate -acceptEula
