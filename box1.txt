@@ -2,7 +2,7 @@ Enable-RemoteDesktop
 cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -acceptEula
 Update-ExecutionPolicy Unrestricted
-Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
 Set-TaskbarSmall
 Disable-UAC
 
