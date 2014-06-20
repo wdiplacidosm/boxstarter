@@ -3,7 +3,7 @@ cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -acceptEula
 Update-ExecutionPolicy Unrestricted
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar
-Set-TaskbarSmall
+Set-TaskbarOptions -Size Large -Lock -Dock Bottom
 Disable-UAC
 
 cinst DotNet4.5
